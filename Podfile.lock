@@ -1,0 +1,37 @@
+PODS:
+  - Alamofire (2.0.0-beta.4)
+  - Nimble (2.0.0-rc.3)
+  - Quick (0.6.0)
+  - RxBlocking (2.0-alpha.1):
+    - RxSwift (~> 2.0-alpha)
+  - RxCocoa (2.0-alpha.1):
+    - RxSwift (~> 2.0-alpha)
+  - RxSwift (2.0-alpha.1)
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`, branch `swift-2.0`)
+  - Nimble (= 2.0.0-rc.3)
+  - Quick (~> 0.6.0)
+  - RxBlocking (~> 2.0-alpha)
+  - RxCocoa (~> 2.0-alpha)
+  - RxSwift (~> 2.0-alpha)
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :branch: swift-2.0
+    :git: https://github.com/Alamofire/Alamofire.git
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :commit: 1108ae4461baa99d9c4898c213ec3e2e2956fab3
+    :git: https://github.com/Alamofire/Alamofire.git
+
+SPEC CHECKSUMS:
+  Alamofire: 20df1a4740a69d7cf6caf7fd06b8a8fc782f1ebd
+  Nimble: 9dff98ee195ffe7351d3b2fb01d3a1420fd97948
+  Quick: 563686dbcf0ae0f9f7401ac9cd2d786ee1b7f3d7
+  RxBlocking: ceef99ff64b43e177637000e2b0e3836c7936ca4
+  RxCocoa: 9f4780fae87f6432ecba3f6bfa44a0e12a84b41b
+  RxSwift: 48982aff7a725bc6d0799aae6d539f360b940ff4
+
+COCOAPODS: 0.38.2
