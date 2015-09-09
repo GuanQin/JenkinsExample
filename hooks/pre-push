@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# Please copy the file under .git/hooks/
+
+WORKSPECE_NAME="JenkinsExample"
+SCHEME_NAME="JenkinsExample"
+DESTINATION="platform=iOS Simulator,name=iPhone 6"
+
+XCODE_TEST_COMMAND="xcodebuild -workspace $WORKSPECE_NAME.xcworkspace -scheme $SCHEME_NAME -destination '$DESTINATION' clean test"
+
+eval $XCODE_TEST_COMMAND
+
+if [ "$?" = 0 ]; then
+ 	exit 0
+fi
+
+exit -1
